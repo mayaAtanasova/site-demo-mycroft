@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{site.title}}</title>
+</head>
+
+<body>
+    <div class="site">
+        <header class="site-header">
+            <h1 class="site-title">
+                <a href="/">{{site.title}}</a>
+            </h1>
+
+            <nav>
+                <ul>
+                    {% for page in site.psges %}
+                    <li>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </header>
+
+        <main class="site-main">
+
+            {{content}}
+
+        </main>
+
+        <aside class="site-sidebar">
+
+        </aside>
+
+        <footer class="site-footer">
+            <h6>{{site.title}}</h6>
+            <p>All rights reserved &copy;</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
