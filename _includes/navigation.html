@@ -4,7 +4,7 @@
         {% if page.title %}
         <li>
             <a href="{{site.baseurl}}{{ page.url }}">
-                <i class="fas {{page.icon}}"></i>
+                {% if page.icon %}<i class="fas {{page.icon}}"></i>{% endif %}
                 {{ page.title }}</a>
         </li>
         {% endif %}
