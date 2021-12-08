@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans+Condensed:wght@300&family=Ubuntu:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu:wght@300;700&display=swap');
 
 *,
 *:before,
@@ -10,7 +10,7 @@
 
 html {
   box-sizing: border-box;
-  font: var(--font-size-body, 14px) / 1.5 "Segoe UI", Tahoma, sans-serif;
+  font: var(--font-size-body, 14px) / 1.5 "Ubuntu", Tahoma, sans-serif;
 }
 
 @media (min-width: 600px) {
@@ -39,6 +39,8 @@ option,
 input,
 textarea {
   font: inherit;
+  background: var(--color-body-bgrd, #FFF);
+  color: var(--color-body-text, #000);
 }
 
 .site-title,
@@ -51,7 +53,12 @@ h6 {
   font-size: 1em;
   margin-bottom: 0.5em;
   font-weight: normal;
-  font-family: -apple-system, "Ubuntu", sans-serif;
+  font-family: -apple-system, "Bree Serif", serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link-default, #0A0);
 }
 
 h1 {

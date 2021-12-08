@@ -4,7 +4,14 @@
   --font-size-body-big: 18px;
   --font-size-body-huge: 20px;
 
-  --mq-size-lv1: 600px;
-  --mq-size-lv2: 1024px;
-  --mq-size-lv3: 1600px;
+  --layout-main-width: 60em;
+
+  --color-body-text: #000;
+  --color-body-bgrd: #FFF;
+  --color-link-default: #A00;
+
+  --color-border-default: #999;
+
+  --spacing-layout-elements: 2em;
+
 }
