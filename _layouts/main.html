@@ -18,16 +18,19 @@
 
             <nav>
                 <ul>
-                    {% for page in site.psges %}
+                    {% for page in site.pages %}
+                        {% if page.title %}
                     <li>
                         <a href="{{ page.url }}">{{ page.title }}</a>
                     </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </nav>
         </header>
 
         <main class="site-main">
+            <h1>{{page.title}}</h1>
 
             {{content}}
 
