@@ -4,4 +4,9 @@
     --font-size-body-big: 18px;
     --font-size-body-huge: 20px;
 
+    --mq-size-lv1: 600px;
+    --mq-size-lv2: 1024px;
+    --mq-size-lv3: 1600px;
+
+
 }
