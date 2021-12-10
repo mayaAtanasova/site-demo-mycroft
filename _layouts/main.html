@@ -8,9 +8,10 @@
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/fontawesome/css/all.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
+    <script src="{{ site.baseurl }}/scripts/site.js"></script>
 </head>
 
-<body>
+<body class="page-{{ page.title | slugify }}">
     <div class="site">
 
         <header class="site-header">
@@ -41,6 +42,7 @@
             {{content}}
 
         </main>
+        
         {% include sidebar.html %}
 
         <footer class="site-footer">
