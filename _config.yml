@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Nice site
+title: BagraDesign
 email: me@example.com
 description: A site to make tests
 destination: docs
