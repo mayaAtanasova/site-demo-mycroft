@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{site.title}}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/fontawesome/css/all.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
 </head>
 
@@ -41,12 +41,12 @@
             {{content}}
 
         </main>
-        {% includes sidebar.html%}
+        {% include sidebar.html %}
 
         <footer class="site-footer">
             <p>All rights reserved &copy; {{site.title}}</p>
 
-            {% include navigation.html location="footer" %}
+            <!-- {% include navigation.html location="footer" %} -->
         </footer>
 
     </div>
