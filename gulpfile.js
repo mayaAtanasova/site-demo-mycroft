@@ -5,7 +5,7 @@ let gulp = require('gulp'),
     exec = require('gulp-exec'),
     browserSync = require('browser-sync').create(),
     sass = require('gulp-sass'),
-    cp = require('child-process');
+    cp = require('child_process');
 
 gulp.task('css', function() {
     return gulp.src( '_assets/css/**/*.css' )

@@ -22,11 +22,14 @@
   "homepage": "https://github.com/mayaAtanasova/site-demo-mycroft#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
-    "child_process": "^1.0.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-exec": "^5.0.0",
     "gulp-sass": "^5.0.0",
-    "node-sass": "^7.0.0"
+    "node-sass": "^7.0.0",
+    "child_process": "^1.0.2"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
   }
 }
