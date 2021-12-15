@@ -48,7 +48,6 @@ gulp.task('watch', function() {
 
     gulp.watch( 'docs/**/*.html' ).on('change', browserSync.reload );
     gulp.watch( 'docs/**/*.js' ).on('change', browserSync.reload );
-    gulp.watch( '_assets/css/*.css').on('change', browserSync.reload);
 
 });
 

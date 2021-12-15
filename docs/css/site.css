@@ -12,4 +12,8 @@
 @import url('transitions.css');
 @import url('animation.css');
 
-@import url('gallery.css');
+/* @import url('gallery.css'); */
+@import url('gallery-grid.css');
+
+@import url('modal.css');
+
