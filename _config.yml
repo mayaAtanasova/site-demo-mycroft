@@ -22,8 +22,8 @@ title: BagraDesign
 email: me@example.com
 description: A site to make tests
 destination: docs
-# baseurl: "" # the subpath of your site, e.g. /blog
-baseurl: "/site-demo-mycroft" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "/site-demo-mycroft" # the subpath of your site, e.g. /blog - FOR GIT
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
